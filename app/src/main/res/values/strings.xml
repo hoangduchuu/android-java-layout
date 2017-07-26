@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Layout with JavaCode</string>
+    <string name="text_khi_ban_ranh">khi mà bạn quá rãnh rỗi bạn có thể làm những cái thật rãnh rỗi như dựng layout bằng java thay vì xml</string>
+</resources>
