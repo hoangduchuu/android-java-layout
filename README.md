@@ -38,4 +38,8 @@ các đoạn java code để tdựng code nằm ở hàm initLinearlayout  , hà
 ### setContentView
      linearLayoutRoot.addView(linearLayoutSecond);
 
+<<<<<<< HEAD
 > Done man!
+=======
+> Done man!
+>>>>>>> a1ab93808a452ce94788002b0f5d8b727e07839d
