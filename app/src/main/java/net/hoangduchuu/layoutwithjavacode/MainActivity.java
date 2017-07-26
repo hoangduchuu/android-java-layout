@@ -1,7 +1,7 @@
 package net.hoangduchuu.layoutwithjavacode;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -14,6 +14,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        initLinearayout();
+
+        setContentView(linearLayoutRoot);
+
+    }
+
+    private void initLinearayout() {
         // linearLayout root
         linearLayoutRoot = new LinearLayout(this);
         linearLayoutRoot.setOrientation(LinearLayout.VERTICAL);
@@ -43,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
         linearLayoutRoot.addView(linearLayoutSecond);
 
-        setContentView(linearLayoutRoot);
-
     }
+
 }
